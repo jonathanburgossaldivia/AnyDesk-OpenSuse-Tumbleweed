@@ -1,5 +1,5 @@
 # AnyDesk-OpenSuse-Tumbleweed
-AnyDesk instalation for OpenSuse
+Some programs for OpenSuse
 
 Installation for:
 
