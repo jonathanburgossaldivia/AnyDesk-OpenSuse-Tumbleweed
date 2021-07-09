@@ -17,5 +17,5 @@ chmod 777 *
 # and execute
 ./anydesk_opensuse.sh
 ./gotop_opensuse.sh
-./rubocop_solargraph _vscodium.sh
+./rubocop_solargraph_vscodium.sh
 ~~~
