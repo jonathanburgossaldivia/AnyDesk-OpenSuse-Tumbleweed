@@ -14,6 +14,7 @@ They can be installed like this:
 ~~~bash
 cd /folder/to/installation/scripts/
 chmod 777 *
+# and execute
 ./anydesk_opensuse.sh
 ./gotop_opensuse.sh
 ./rubocop_solargraph _vscodium.sh
