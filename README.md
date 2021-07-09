@@ -3,11 +3,16 @@ Programs-OpenSuse-Tumbleweed
 
 Some programs for OpenSuse.
 
-2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists
-look like:
+Basically install programs that are not in the repositories.:
 
   * Anydesk: remote technical support
   * gotop: modern terminal based graphical activity monitor
 
-Note that --- not considering the asterisk --- the actual text
-content starts at 4-columns in.
+They can be installed like this:
+
+~~~bash
+cd /folder/to/installation/scripts/
+chmod 777 anydesk_opensuse.sh gotop_opensuse.sh
+./anydesk_opensuse.sh
+./gotop_opensuse.sh
+~~~
