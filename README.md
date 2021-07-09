@@ -3,7 +3,7 @@ Programs-OpenSuse-Tumbleweed
 
 Some programs for OpenSuse.
 
-Basically install programs that are not in the repositories.:
+Basically install useful programs that are not in the repositories:
 
   * Anydesk: remote technical support
   * gotop: modern terminal based graphical activity monitor
