@@ -5,9 +5,9 @@ Some programs for OpenSuse.
 
 Basically install useful programs that are not in the repositories:
 
-  * Anydesk: remote technical support
-  * gotop: modern terminal based graphical activity monitor
-  * vscodium and solargraph & rubocop: code editor and also installs solargraph and rubocop for provides intellisense, code completion, and inline documentation.
+  * Anydesk: remote technical support.
+  * gotop: modern terminal based graphical activity monitor.
+  * vscodium and solargraph & rubocop: code editor and also installs solargraph and rubocop for provides intellisense, code completion, and inline documentation for the Ruby programming language.
 
 They can be installed like this:
 
