@@ -8,3 +8,11 @@ sudo gem install solargraph
 sudo gem install rubocop
 sudo ln -s /usr/bin/solargraph.ruby2.7 /usr/bin/solargraph
 sudo ln -s /usr/bin/rubocop.ruby2.7 /usr/bin/rubocop
+
+data='"serviceUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
+"cacheUrl": "https://vscode.blob.core.windows.net/gallery/index",
+"itemUrl": "https://marketplace.visualstudio.com/items"'
+
+sudo sed -i '/itemUrl/d' /usr/share/codium/resources/app/product.json
+perl -spe 's/.serviceUrl.*/$var/' -- -var="$data"  /usr/share/codium/resources/app/product.json > /tmp/product.json
+sudo cp /tmp/product.json /usr/share/codium/resources/app/product.json
